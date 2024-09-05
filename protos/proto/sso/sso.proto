@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package sso;
 
-option go_package = "github.com/eadenink/go-grpc-sso-microservice/protos/sso";
+option go_package = "github.com/eadenink/go-grpc-sso-microservice/ssov1";
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
