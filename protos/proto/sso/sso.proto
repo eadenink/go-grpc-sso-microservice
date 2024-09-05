@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package auth;
+package sso;
 
-option go_package = "eadenink.sso.v1";
+option go_package = "github.com/eadenink/go-grpc-sso-microservice/protos/sso";
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
