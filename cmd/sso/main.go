@@ -1,7 +1,11 @@
-package sso
+package main
+
+import (
+	"github.com/eadenink/go-grpc-sso-microservice/internal/config"
+)
 
 func main() {
-	// TODO: Init config
+	cfg := config.MustLoad()
 
 	// TODO: Init logger
 
